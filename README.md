@@ -1,6 +1,6 @@
 # bypass
 
-simple cloudflare challenge solver + http load tester
+cloudflare cap solver + http nigga stress
 
 uses playwright (real firefox) to solve cf challenges, grabs the cookies, then hands off to a go binary for the actual load generation part. go is way faster at raw rps than node so it made sense to split it up.
 
